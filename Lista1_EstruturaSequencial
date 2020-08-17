@@ -1,0 +1,110 @@
+//EXERCÍCIO 1
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o 1° valor");
+		int n1 = sc.nextInt();
+		System.out.println("Digite o 2° valor");
+		int n2 = sc.nextInt();
+		int soma = n1 + n2;
+		System.out.println("A soma dos números digitados é: "+soma);
+		sc.close();
+		*/
+		
+//EXERCÍCIO 2
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o valor do raio do círculo");
+		double pi=3.14159, raio = sc.nextDouble();
+		double area= pi*Math.pow(raio, 2);
+		System.out.printf("O valor da área do círculo é: %.4f%n",area);
+		*/
+		
+//EXERCÍCIO 3
+		/*Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Digite o 1° Valor");
+		int n1 = sc.nextInt();
+		System.out.println("Digite o 2° Valor");
+		int n2 = sc.nextInt();
+		System.out.println("Digite o 3° Valor");
+		int n3 = sc.nextInt();
+		System.out.println("Digite o 4° Valor");
+		int n4 = sc.nextInt();
+		
+		int resposta = n1*n2-n3*n4;
+		
+		System.out.println("A diferença do produto é: "+resposta);
+		
+		
+		sc.close();*/
+		
+//EXERCÍCIO 4 
+		/*Scanner sc = new Scanner (System.in);
+		
+		Locale.setDefault(Locale.US);
+		System.out.println("Digite o número do funcionário: ");
+		int nmr=sc.nextInt();
+		System.out.println("Digite o valor de horas trabalhada do funcionário: ");
+		int hrs = sc.nextInt();
+		System.out.println("Digite o valor da hora: ");
+		double vlr = sc.nextDouble();
+		
+		double slr = vlr*hrs;
+		System.out.println("O número do funcionário é: "+nmr);
+		
+		System.out.printf("O valor do Sálario é: U$ %.2f%n",slr);
+		
+		sc.close();*/
+		
+//EXERCÍCIO 5
+		/*Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o código da peça 1: ");
+		int cd1=sc.nextInt();
+		System.out.println("Digite o número de peças 1: ");
+		int nmr1=sc.nextInt();
+		System.out.println("Digite o valor unitário da peça 1: ");
+		double vlr1=sc.nextDouble();
+		
+		System.out.println("Digite o código da peça 2: ");
+		int cd2=sc.nextInt();
+		System.out.println("Digite o número de peças 2: ");
+		int nmr2=sc.nextInt();
+		System.out.println("Digite o valor unitário da peça 2: ");
+		double vlr2=sc.nextDouble();
+		
+	double rspst=nmr1*vlr1 + nmr2*vlr2;
+	
+	System.out.printf("O valor a ser pago é: R$ %.2f%n",rspst);
+		
+		
+		
+		sc.close();*/
+		
+//EXERCÍCIO 6
+		/*Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o valor de A: ");
+		double a= sc.nextDouble();
+		
+		System.out.println("Digite o valor de B: ");
+		double b= sc.nextDouble();
+		
+		System.out.println("Digite o valor de C: ");
+		double c= sc.nextDouble();
+		
+		double tri=a*c/2;
+		
+		double pi=3.14159,circ=pi*Math.pow(c, 2);
+		
+		double tra=(a+b)*c/2;
+		
+		double quad = Math.pow(b, 2);
+		
+		double ret = a*b;
+		
+		System.out.printf("TRIANGULO = %.3f%n",tri);
+		System.out.printf("CÍRCULO = %.3f%n",circ);
+		System.out.printf("TRAPEZIO= %.3f%n",tra);
+		System.out.printf("QUADRADO = %.3f%n",quad);
+		System.out.printf("RETANGULO = %.3f%n",ret);
+		sc.close();*/
+	

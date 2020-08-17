@@ -1,0 +1,127 @@
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o preço: ");
+		double p=sc.nextDouble();
+		
+		double desconto=(p<20.00)?p*0.1:p*0.05;
+
+		System.out.println(desconto);
+		/*
+		
+		switch(dia)
+		{
+		case 1:
+			System.out.println("Segunda");
+			break;
+		case 2:
+			System.out.println("Terça");
+			break;
+		case 3:
+			System.out.println("Quarta");
+			break;
+		case 4:
+			System.out.println("Quinta");
+			break;
+		case 5:
+			System.out.println("Sexta");
+			break;
+		case 6:
+			System.out.println("Sabádo");
+			break;
+		case 7:
+			System.out.println("Domingo");
+			break;
+			default:
+				System.out.println("Valor Invalido");
+			
+		
+		}
+		*/
+		sc.close();
+		
+		
+	}
+}
+
+
+//EXERCÍCIO 1
+		/*
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite a sua senha:");
+		int key = sc.nextInt();
+		while(key!=2002)
+			{System.out.println("Senha Invalida!");
+			key=sc.nextInt();
+			}
+		System.out.println("Acesso Permitido!");
+		sc.close();
+	*/	
+//EXERCÍCIO 2
+		
+		/*Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a coordenada X:");
+		double x =sc.nextDouble();
+		System.out.println("Digite a coordenada Y:");
+		double y = sc.nextDouble();
+		
+		while(x!=0&&y!=0)
+		{
+			String res = (x>0&&y>0)?"Primeiro":
+				(x>0&&y<0)?"Quarto":
+					(x<0&&y>0)?"Segundo":
+						"Terceiro";
+			
+			System.out.println(res);
+			System.out.println("Digite a coordenada X:");
+			x =sc.nextDouble();
+			System.out.println("Digite a coordenada Y:");
+			y = sc.nextDouble();
+			
+		}
+		
+		sc.close();
+		*/
+		
+//EXERCÍCIO 3
+		/*Scanner sc = new Scanner(System.in);
+		
+		int cod=0;
+		int al=0,ga=0,di=0;
+		while(cod!=4)
+		{
+			System.out.println("Digite o código do produto:");
+			 cod=sc.nextInt();	
+			
+			switch (cod)
+			{
+			case 1: 
+				al++;
+				break;
+			case 2:
+				ga++;
+				break;
+			case 3:
+				di++;
+				break;
+			case 4:
+				break;
+			default:
+			System.out.println("Código Invalido!");
+			
+				
+					
+			
+			
+			}
+		}
+		System.out.println("MUITO OBRIGADO");
+		System.out.println("Alcool: "+al);
+		System.out.println("Gasolina: "+ga);
+		System.out.println("Diesel: "+di);
+		
+		
+		
+		sc.close();
+		
+	*/

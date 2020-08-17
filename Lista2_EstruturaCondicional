@@ -1,0 +1,160 @@
+//EXERCÍCIO 1
+		/*Scanner sc = new Scanner(System.in);
+		
+	System.out.println("Digite um número: ");
+	int n1 =sc.nextInt();
+	
+	if(n1<0)
+	{
+		System.out.println("O número é negativo.");
+	}
+	else if(n1>0){
+		
+		System.out.println("O número é positivo.");
+	}
+	else {
+		System.out.println("O número é zero.");
+	}
+		
+		
+		sc.close();
+		
+	*/
+		
+//EXERCÍCIO 2
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("Digite um número: ");
+		int n1 =sc.nextInt();
+		if(n1%2==0)
+			System.out.println("O número é par.");
+		else
+			System.out.println("O número é impar.");
+		sc.close();
+		*/
+		
+//EXERCÍCIO 3
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("Digite um número: ");
+		int n1 =sc.nextInt();
+		System.out.println("Digite outro número: ");
+		int n2 =sc.nextInt();
+		
+		if(n1%n2==0||n2%n1==0)
+			System.out.println("Os números são multiplos.");
+		else
+			System.out.println("Os números não são multiplos.");
+			
+		sc.close();
+		*/
+		
+//EXERCÍCIO 4
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("Digite a hora de começo do jogo: ");
+		int h1 =sc.nextInt();
+		System.out.println("Digite a hora de termino do jogo: ");
+		int h2 =sc.nextInt();
+		
+		if(h2>h1)
+			System.out.println("O jogo durou : "+(h2-h1)+" horas.");
+		else if(h1>h2)
+			System.out.println("O jogo durou : "+(h2-h1+24)+" horas.");
+		else
+			System.out.println("O jogo durou : 24 horas.");
+			sc.close();
+			*/
+		
+//EXERCÍCIO 5
+		
+		/*Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o código do produto");
+		int cod =sc.nextInt();
+		System.out.println("Digite a quantidade do produto: ");
+		int qtd =sc.nextInt();
+		
+		if(cod==1)
+			System.out.println("O valor do pedido é : R$ "+qtd*4.00);
+		else if(cod==2)
+			System.out.println("O valor do pedido é : R$ "+qtd*4.50);
+		else if(cod==3)
+			System.out.println("O valor do pedido é : R$ "+qtd*5.00);
+		else if (cod==4)
+			System.out.println("O valor do pedido é : R$ "+qtd*2.00);
+		else if (cod==5)
+			System.out.println("O valor do pedido é : R$ "+qtd*1.50);
+		
+		sc.close();*/
+		
+//EXERCÍCIO 6
+		/*
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um número");
+		double n1 =sc.nextDouble();
+		
+		if(n1<0)
+			System.out.println("Fora do Intervalo");
+		else if(n1<=25)
+			System.out.println("[0,25]");
+		else if(n1<=50)
+			System.out.println("(25,50]");
+		else if(n1<=75)
+			System.out.println("(50,75]");
+		else if(n1<=100)
+			System.out.println("(75,100]");
+		else
+			System.out.println("Fora do Intervalo");
+		
+		sc.close();
+		*/
+		
+//ECERCÍCIO 7
+		/*
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o valor de x");
+		double x =sc.nextDouble();
+		System.out.println("Digite o valor de y: ");
+		double y =sc.nextDouble();
+		
+		if(x==0&&y==0)
+			System.out.println("Origem.");
+		else if(x==0&&y!=0)
+			System.out.println("Eixo Y.");
+		else if(x!=0&&y==0)
+			System.out.println("Eixo X.");
+		else if(x>0&&y>0)
+			System.out.println("Q1");
+		else if(x>0&&y<0)
+			System.out.println("Q4");
+		else if(x<0&&y>0)
+			System.out.println("Q2");
+		else if(x<0&&y<0)
+			System.out.println("Q3");
+		sc.close();
+		
+		*/
+		
+//EXERCÍCIO 8
+		
+		/*Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o valor do salário");
+		double slr=sc.nextDouble();
+		
+		if(slr<=2000.00)
+			System.out.println("Isento");
+		
+		else if(slr<=3000.00)
+			System.out.println("R$ "+(slr-2000.00)*0.08);
+		
+		else if(slr<=4500.00)
+			System.out.println("R$ "+ (80 +(slr-3000)*0.18));
+		
+		else if(slr>4500.00)
+			System.out.println("R$ "+ ((80+ 1500*0.18 + (slr-4500.00)*0.28)));	
+
+		
+		sc.close();
+		*/
+		

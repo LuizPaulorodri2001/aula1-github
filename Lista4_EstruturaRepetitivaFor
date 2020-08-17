@@ -1,0 +1,145 @@
+//EXERCÍCIO 1
+		/*
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("Digite um número:");
+	int n = sc.nextInt();
+	
+	
+	for(int i=1;i<=n;i++) {
+		
+		if(i%2!=0)
+		{
+			System.out.println(i);
+		}
+	}
+	
+	sc.close();
+	
+	*/
+		
+//EXERCÍCIO 2
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("Digite um número");
+		int n = sc.nextInt();
+		int in=0,out=0;
+		int x;
+		for(int i=1;i<=n;i++)
+		{
+			System.out.println("Digite outro número:");
+			x = sc.nextInt();
+			if(x>=10&&x<=20)
+				in++;
+			else 
+				out++;
+		}
+		System.out.printf("in: %d%nout: %d",in,out);
+		sc.close();
+		*/
+		
+//EXERCÍCIO 3
+		
+		/*Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		
+		System.out.println("Digite quantos alunos:");//pergunta quantos alunos tem
+		int n = sc.nextInt();//coleta a quantidade de alunos
+		
+		double nota=0;//variavel nota
+		String res = "";
+		
+		for(int i=1;i<=n;i++)//faz pra todos os alunos
+		{
+					
+					for(int q=1;q<=3;q++)//faz todas as provas
+					{
+							System.out.printf("Digite a nota %d°:",q);//pergunta a nota da prova
+							
+							switch(q) {//descobre qual o peso da prova e soma 
+										case 1:
+											nota+=2.00*sc.nextDouble();
+											break;
+										case 2:
+											nota+=3.00*sc.nextDouble();
+											break;
+										case 3:
+											nota+=5.00*sc.nextDouble();
+											break;
+									}
+				}
+					nota/=10.0;//faz a média ponderada
+					System.out.printf("%.1f%n",nota);
+					nota=0;
+			}
+		
+		
+		sc.close();*/
+		
+		//EXERCÍCIO 4
+		/*
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite quantos pares quer ler:");
+		int par=sc.nextInt();
+		
+		for(int i=1;i<=par;i++)
+			{
+			System.out.println("Digite o númerador:");
+			int num=sc.nextInt();
+			
+			System.out.println("Digite o denominador:");
+			int den=sc.nextInt();
+		
+		if(den==0)
+			System.out.println("Divisão Impossível.");
+		else
+			{
+			double res=(double)num/den;
+			System.out.printf("%.1f%n",res);
+			}
+		
+			}
+		sc.close();
+		*/
+
+//EXERCÍCIO 5
+		/*Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um número:");
+		int n = sc.nextInt();
+		
+		int fat=1;
+		
+		for(int i=1;i<=n;i++)
+			fat=(i==0)?1:fat*i;
+		System.out.println("O fatorial do "+ n +" é:"+fat);
+		
+		sc.close();
+		*/
+		
+//EXERCÍCIO 6
+		/*Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um número:");
+		int n=sc.nextInt();
+		
+		for(int i=1;i<=n;i++) {
+			if(n%i==0)
+			System.out.println(i);
+		}
+		
+		sc.close();
+		*/
+		
+//EXERCÍCIO 7
+		/*
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a quantidade de linhas:");
+		int l=sc.nextInt();
+		
+		for(int i=1;i<=l;i++) 
+			System.out.println(i+" "+(int)Math.pow(i,2)+" "+(int)Math.pow(i,3));
+			
+		sc.close();
+		*/
